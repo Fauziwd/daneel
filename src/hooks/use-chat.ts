@@ -92,7 +92,7 @@ export function useChat() {
           case "open": {
             // The stream has opened and we should recieve
             // a delta event soon. This is normally almost instant.
-            setCurrentChat("Wait., sabar ya ni lagi mikir gw cuk!");
+            setCurrentChat("...");
             break;
           }
           case "done": {
